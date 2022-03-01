@@ -5,7 +5,7 @@
   "main": "jscript.js",
   "scripts": {
     "start": "parcel index.html team.html store.html",
-    "build": "parcel build index.html team.html store.html"
+    "build": "parcel build --no-minify index.html team.html store.html"
   },
   "author": "",
   "license": "ISC",
